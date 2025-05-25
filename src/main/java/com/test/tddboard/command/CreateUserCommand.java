@@ -1,4 +1,7 @@
 package com.test.tddboard.command;
 
-public record CreateUserCommand() {
-}
+public record CreateUserCommand(
+    String email,
+    String username,
+    String password
+) {}
